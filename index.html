@@ -1,0 +1,43 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/Pizzicato.js"></script>
+  <script src="js/RainPlayer.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.png" />
+</head>
+<body>
+  
+  <!-- big circle in the center -->
+  <div id="center-circle" class="center">
+    <div id="throbber" class="center"><div></div></div>
+
+    <!-- playback controls -->
+    <div id="cont-ctrls" class="center">
+      <div class="ctrl-row">
+        <button id="btn-rain" type="button" class="btn btn-ctrl"></button>
+      </div>
+      <div class="ctrl-row">
+        <button id="btn-prev" type="button" class="btn btn-ctrl"></button>
+        <button id="btn-play" type="button" class="btn btn-ctrl"></button>
+        <button id="btn-next" type="button" class="btn btn-ctrl"></button>
+      </div>
+      <div class="ctrl-row">
+        <!-- hidden since file selector element is ugly -->
+        <input id="file-audio" style="display:none;" type="file" accept="audio/*" multiple>
+        <button id="btn-load" type="button" class="btn btn-ctrl"></button>
+      </div>
+    </div>
+  </div>
+
+  <!--<div id="cont-options">
+    <button id="btn-reverb" class="btn btn-opt">REVERB</button>
+    <button id="btn-rain" class="btn btn-opt"></button>
+  </div>-->
+
+  <div id="bottom-bar">
+    <div>Now Playing: <i><span id="filename"></span></i></div>
+  </div>
+</body>
+</html>
