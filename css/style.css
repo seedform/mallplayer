@@ -7,7 +7,7 @@
 
 body {
 	background-color: #000;
-  background-image: url(/img/bg0.jpg);
+  background-image: url(/mallplayer/img/bg0.jpg);
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ button::-moz-focus-inner {
 }
 
 .btn-opt {
-  /*background-image: url(/img/halo.png);
+  /*background-image: url(/mallplayer/img/halo.png);
   background-size: cover;
   font-size: 9px;
   color: #fff;*/
@@ -71,31 +71,31 @@ button::-moz-focus-inner {
 }
 
 .btn-circle {
-  background-image: url(/img/halo.png);
+  background-image: url(/mallplayer/img/halo.png);
 }
 
 #btn-rain {
-  background-image: url(/img/rain.png);
+  background-image: url(/mallplayer/img/rain.png);
 }
 
 #btn-play {
-  background-image: url(/img/play.png);
+  background-image: url(/mallplayer/img/play.png);
 }
 
 #btn-stop {
-  background-image: url(/img/stop.png);
+  background-image: url(/mallplayer/img/stop.png);
 }
 
 #btn-prev {
-  background-image: url(/img/prev.png);
+  background-image: url(/mallplayer/img/prev.png);
 }
 
 #btn-next {
-  background-image: url(/img/next.png);
+  background-image: url(/mallplayer/img/next.png);
 }
 
 #btn-load {
-  background-image: url(/img/load.png);
+  background-image: url(/mallplayer/img/load.png);
 }
 
 /******************************************************************************/
