@@ -38,7 +38,7 @@ app.locations = {
         peak: 0.0001
       }),
       new Pizzicato.Effects.Convolver({
-        impulse: '/aud/impulse1.wav', // http://www.openairlib.net/auralizationdb/content/underground-car-park
+        impulse: '../aud/impulse1.wav', // http://www.openairlib.net/auralizationdb/content/underground-car-park
         mix: 1
       })
     ]
@@ -120,7 +120,7 @@ app.play = function() {
     200
   );
   $('#throbber').css('display', 'block');
-  $('#btn-play').css('background-image', 'url(/img/pause.png)');
+  $('#btn-play').css('background-image', 'url(../img/pause.png)');
 }
 
 app.pause = function() {
@@ -129,7 +129,7 @@ app.pause = function() {
   app.track.pause();
   clearInterval(app.pollId);
   $('#throbber').css('display', 'none');
-  $('#btn-play').css('background-image', 'url(/img/play.png)');
+  $('#btn-play').css('background-image', 'url(../img/play.png)');
 }
 
 app.stop = function() {
@@ -138,7 +138,7 @@ app.stop = function() {
   app.track.stop();
   clearInterval(app.pollId);
   $('#throbber').css('display', 'none');
-  $('#btn-play').css('background-image', 'url(/img/play.png)');
+  $('#btn-play').css('background-image', 'url(../img/play.png)');
 }
 
 $(function() {
@@ -147,7 +147,7 @@ $(function() {
   app.rainLoop = new Pizzicato.Sound({
     source: 'file',
     options: {
-      path: '/aud/rain-loop.ogg',
+      path: '../aud/rain-loop.ogg',
       loop: true,
       volume: 0.1
     }
